@@ -1,0 +1,97 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* section main의 height auto로 설정/ footer에 hr 하나 더 추가 */
+html{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    background-color: #88b0b2;
+    background: linear-gradient( to bottom, #88b0b2, #427381);
+}
+
+html:focus{
+    outline: none;
+}
+
+header{
+    background-color: white;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+#tab-logo{
+    padding-top: 13px;
+    padding-bottom: 7px;
+    display: block;
+}
+.tab-text{
+    display: inline-block;
+    height: auto;
+    font-family: 'Hanna', sans-serif;
+    margin: 1% 4.5%;
+    vertical-align: middle;
+}
+a.tab-text:link{
+    color: #449cc2;
+    text-decoration: none;
+}
+a.tab-text:visited{
+    color: #449cc2;
+    text-decoration: none;
+}
+a.tab-text:hover{
+    color: #449cc2;
+    text-shadow: 2px 2px 2px #427381;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    width: 88%;
+    background: linear-gradient( to right, #449cc2, #427381);
+    margin-top: 15px;
+}
+
+section.main{
+    background-color: white;
+    height: auto;
+}
+
+footer{
+    padding-bottom: 1em;
+    font-size: 0.85em;
+    font-family: 'Hanna', sans-serif;
+    line-height: 1.3em;
+    color: aliceblue;
+}
+a.foot-link:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+a.foot-link:visited{
+    color: aliceblue;
+    text-decoration: none;
+}
+a.foot-link:hover{
+    color: aliceblue;
+    text-shadow: 1px 2px 2px azure;
+}
+hr.section-split{
+    border: none;
+    height: 1px;
+    width: 88%;
+    background: linear-gradient( to right, #449cc2, aliceblue);
+    margin-bottom: 15px;
+}
+hr.foot{
+    border: none;
+    height: 1px;
+    width: 88%;
+    background: linear-gradient( to right, #449cc2, aliceblue);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
